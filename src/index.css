@@ -5,9 +5,88 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:rgb(44, 44, 204);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1{
+  text-align: center;
+}
+input{
+  vertical-align:0px;
+  align-self: center;
+}
+.nrinote{
+  font-size: 5mm;
+  position: absolute;
+}
+.header-group{
+  background-color:burlywood;
+  border-radius:10px;
+  box-shadow:0 2px 5px rgba(red, green, blue, alpha);
+}
+.card{
+  background-color:aliceblue;
+  border-radius:25px;
+  box-shadow:0 1px 4px rgba(158, 108, 108, 0.2);
+  padding:1rem;
+  width:20rem;
+}
+.form-inner{
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 30px;
+  width: 240px;
+  margin-left: 20%;
+  margin-top:5%;
+  float: left;
+}
+.form-group{
+  display:flex;
+  flex-direction: column;
+  margin-left: 70px;
+  align-items: 'center';
+}
+header{
+  font-size: 20px;
+  margin-left:30%;
+  margin-top:5%;
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+label{
+  font-weight: bold;
+  align-content:space-between;
+}
+.actions{
+  text-align:left;
+}
+.btn{
+  color: white;
+  box-sizing: inherit;
+  font:inherit;
+  padding-left: 2in;
+  cursor:pointer;
+  border-radius:4px;
+}
+.btn--alt{
+  background-color:transparent;
+  color:red;
+}
+.modal{
+  box-shadow: 0 1px 4px rgba(red, green, blue, alpha);
+  border-radius: 6px;
+  background-color: white;
+  padding:1 rem;
+  text-align: center;
+  width:30 rem;
+  z-index:10;
+}
+.backdrop{
+  backdrop-filter:blur(2px);
 }
